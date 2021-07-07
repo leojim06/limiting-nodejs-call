@@ -1,0 +1,29 @@
+{
+  "name": "limiting-nodejs-call",
+  "version": "1.0.0",
+  "description": "Ejercicio en node js para limitar el número de llamados al API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leojim06/limiting-nodejs-call.git"
+  },
+  "keywords": [
+    "nodejs",
+    "limit",
+    "API"
+  ],
+  "author": "leojim06",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leojim06/limiting-nodejs-call/issues"
+  },
+  "homepage": "https://github.com/leojim06/limiting-nodejs-call#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.3.0"
+  }
+}
